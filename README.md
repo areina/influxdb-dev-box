@@ -17,8 +17,8 @@ git clone https://github.com/areina/influxdb-dev-box.git
 ```
 * Clone your InfluxDB fork (This example is using official InfluxDB repo).
 ```
-FORK_PATH=gocodez/src/github.com/influxdb
-git clone https://github.com/influxdb/influxdb.git $FORK_PATH/influxdb
+FORK_PATH=gocodez/src/github.com/influxdb && \
+  git clone https://github.com/influxdb/influxdb.git $FORK_PATH/influxdb
 ```
 
 There is a predefined path ($FORK_PATH), if you use it everything will be easier because
